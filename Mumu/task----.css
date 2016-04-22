@@ -1,0 +1,26 @@
+.container{
+    width:100%;
+}
+.container .sidebar{
+    width:300px;
+    float: left ;
+}
+#sidebar-top{
+    font:1.2em Arial, Tahoma, Verdana;
+    color: #5b0d77;
+}
+#sidebar-bottom{
+    font:1.2em Arial, Tahoma, Verdana;
+    color: #354f77;
+    margin-top:5%;
+}
+.container .main{
+    width:500px;
+    float:left;
+    font-size:2.2rem;
+    color:#000000;
+}
+.footer{
+    width:100%;
+}
+

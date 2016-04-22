@@ -1,0 +1,226 @@
+html{
+    font-size:62.5%;
+}
+*{
+    background-color: rgb(217, 225, 228);
+    padding:0;
+    margin:0;
+}
+img{
+    max-width: 100%;
+}
+.wrap{
+    background-color: whitesmoke ;
+    width:960px;
+}
+.header{
+    width:100%;
+    margin:20px auto;
+}
+ .text{
+     color: rgba(119, 119, 119, 0.37);
+    margin:20px auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: large ;
+}
+ .Nav {
+     background-color:rgb(217, 225, 228) ;
+     border-radius: 5px;
+    margin: 40px 43px;
+    border: 1px solid lightgrey ;
+    line-height: 1em;
+     text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    box-shadow: 0 1px 1px #ebff15, 0 1px 0 #cbff1a inset;
+}
+ .Nav :before,.header .Nav :after {
+    content: "";
+    display: table;
+}
+ .Nav :after {
+    clear: both;
+}
+ .Nav li {
+     list-style-type: none;
+     background-color: rgba(125, 172, 255, 0.71);
+    float: left;
+     margin:0 1px;
+     padding:12px 20px;
+    border-right: 1px solid #ebff15;
+    -moz-box-shadow: 1px 0 0 #444;
+    -webkit-box-shadow: 1px 0 0 #444;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+     color:whitesmoke;
+}
+ .Nav a {
+    float: left;
+    padding: 13px 80px;
+    color: #999;
+     font-size: medium ;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+ .Nav li:hover > a {
+    color: #7834fa;
+}
+*html .header .Nav li a:hover {
+    color:#7834fa;
+}
+ .Nav ul {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+     border-radius: 8px;
+}
+.Nav li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+.Nav ul li {
+    float: none;
+    display: block;
+    border: 0;
+    _line-height: 0;
+    -moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    -webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    box-shadow: 0 1px 0 #ebff15, 0 2px 0 #ebff15 ;
+}
+.Nav ul a {
+    padding: 10px;
+    width: 130px;
+    _height: 10px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+.Nav ul a:hover {
+    color:#7834fa;
+    background-color:#7834fa  ;
+}
+.hr{
+    width:240px;
+    font-size: 4px;
+}
+.container{
+    width:100%;
+}
+.sidebar{
+    width:380px;
+    float: left ;
+    margin: 10px 80px 10px 50px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#sidebar-top menu{
+    font-size: 2.5rem;
+    text-align: center ;
+    background-color: #ffffff;
+}
+#sidebar-bottom menu{
+    font-size: 2.5rem;
+    text-align: center ;
+    background-color: #111111 ;
+}
+#sidebar-top{
+    width:260px;
+    text-align: center ;
+ padding:40px 15px;
+    font-size: 2rem;
+    color: #111111 ;
+    background-color: #ffffff;
+}
+#sidebar-bottom{
+    width:260px;
+    text-align: center ;
+    display:inline-block;
+   padding:20px 15px;
+    font-size: 2rem;
+    background-color: #111111 ;
+    color: #ffffff;
+}
+#sidebar-bottom li{
+    background-color: #111111 ;
+}
+#sidebar-top li{
+    background-color: #ffffff;
+}
+#sidebar-bottom b{
+    background-color: #111111 ;
+}
+#sidebar-top b{
+    background-color: #ffffff;
+}
+.mainbody{
+    padding:120px 40px 93px 40px;
+    margin:10px auto;
+    float: left ;
+    width:420px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:3.2rem;
+    background-image: url(images/background4.jpg);
+    background-size:420px auto;
+}
+.mainbody p{
+    padding:10px;
+    margin:15px auto;
+    color: rgba(104, 104, 192, 0.81);
+    background-color: rgba(173, 216, 230, 0.34);
+}
+input#name{
+    font-size: 2rem;
+    text-indent: 5rem;
+}
+input#keyword{
+    font-size: 2rem;
+    text-indent: 5rem;
+}
+button{
+    margin:0 20px;
+    padding:0 40px;
+    border-radius: 8px;
+    font-size: 2.8rem;
+    text-align: center ;
+    color: rgba(104, 104, 192, 0.81);
+    background-color: rgba(173, 216, 230, 0.34);
+}
+button:hover{
+    background-color: #9fc7d5 ;
+}
+.footer{
+    width: 100%;
+    background-image: url(images/aaa.jpg);
+    background-size:960px 600px;
+    display:inline-block;
+    padding: 40px;
+}
+ h2 {
+     background-color: rgba(244, 252, 255, 0);
+     font-size:3.2rem;
+    padding:10px 40px;
+     color: rgba(16, 49, 255, 0.52);
+}
+.footer ul{
+    padding:40px;
+    float:left;
+    font-family: 幼圆 ,serif;
+    font-weight: bolder ;
+    font-size:4rem;
+    color: #bfdbee;
+    background-color: rgba(244, 252, 255, 0);
+}
+<div class="block">
+<div class="block_tp"><img src="images/ii.jpg " alt="AR增强现实" /></div>
+                                                                 <div class="block_wz">
+<ul>
+ <li><a href="http://www.vrp3d.com/article/zengqiangxianshi/2012-12-06/629.html">增强现实软件产品介绍</a></li>
+                                                                                                 <li><a href="http://www.vrp3d.com/article/zengqiangxianshi/2012-12-06/630.html">PC端增强现实软件平台PC-AR</a></li>
+                                                                                                                                                                                                       <li><a href="http://www.vrp3d.com/article/zengqiangxianshi/2012-12-06/631.html">移动端增强现实软件Mobile-AR</a></li>
+                                                                                                                                                                                                                                                                                                               <li><a href="http://www.vrp3d.com/article/zengqiangxianshi/2012-12-06/632.html">网络端增强现实软件Web-AR“视网”</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
