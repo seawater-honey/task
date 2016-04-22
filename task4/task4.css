@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width:100%;
+}
+.container{
+    max-width: 740px;
+    width:100%;
+    font-family: "Hiragino Sans GB W3", "Hiragino Sans GB W6", Arial, sans-serif;
+    color:white;
+}
+.header{
+    background-color: #68cdd5 ;
+    position: relative ;
+    padding:5% 0;
+}
+.header p{
+    position:absolute;
+    top:30%;
+    left:5%;
+    font-size: 1.2rem;
+}
+.header p~p{
+    top:21%;
+    left:44%;
+    font-size: 1.7rem;
+}
+.header p~p~p{
+    top:30%;
+    left:85%;
+    font-size: 1.2rem;
+}
+.content{
+    width:100%;
+    position:relative;
+    background-color: rgba(169, 168, 180, 0.15);
+    padding: 30% 0;
+}
+.box-one{
+    width:100%;
+    padding: 1% 0;
+    position:absolute;
+    top:4%;
+    background-color: #fafdff;
+}
+.box-one input#number{
+    margin:2% 22%;
+    text-indent: 2rem;
+    border:none;
+    border-left:0.1em solid rgba(169, 169, 169, 0.38);
+    height:2.2rem;
+    font-size: 1.2rem;
+}
+.box-one img{
+    max-width: 5%;
+    position:absolute;
+    top:30%;
+    left:7%;
+}
+.box-two{
+    width:100%;
+    padding: 1% 0;
+    position:absolute;
+    top:31%;
+    background-color:#fafdff  ;
+}
+.box-two input#password{
+    margin:2% 22%;
+    text-indent: 2rem;
+    border:none;
+    border-left:0.1em solid rgba(169, 169, 169, 0.38);
+    height:2.2rem;
+    font-size: 1.2rem;
+}
+.box-two img {
+    max-width: 5%;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+}
+button{
+    width:100%;
+    position:absolute;
+    top:76%;
+    padding:3% 40%;
+    text-align: center;
+    background-color: rgba(15, 192, 200, 0.77) ;
+}
+button p{
+    font-size: 1.5rem;
+    color:white;
+    letter-spacing:0.3rem;
+}
+.foot{
+    width:100%;
+    padding-bottom: 70%;
+    font-size: 1rem;
+    text-align: right ;
+    position:relative;
+    color:  rgba(15, 192, 200, 0.77)  ;
+    top:47%;
+    background-color: rgba(169, 168, 180, 0.15);
+}
+
