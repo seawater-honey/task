@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    border:none;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background-color: darkturquoise ;
+    padding:1%;
+}
+.header img{
+    margin-left:26%;
+    max-width:3%;
+}
+#employer{
+    margin-left: 31%;
+}
+#worker{
+    background-color: white;
+}
+button{
+    font-size: 1.4rem;
+    border-radius: 8px;
+    padding: 3% 5% ;
+    background-color: #57a6ae;
+}
+.main{
+    width:100%;
+}
+select{
+    padding:2% 12%;
+    font-size: 1.2rem;
+    border-right:1px solid darkgrey;
+}
+select~select~select{
+    border:none;
+}
+form{
+    border-bottom:1px solid #e3e3e3;
+    padding:2%;
+}
+.box li{
+    font-size: 1rem;
+    color:darkgrey;
+}
+.box img{
+    max-width: 1%;
+    padding:0 1% ;
+}
+ul{
+    border-bottom:1px solid #e3e3e3;
+    padding:3% 2%;
+}
+li{
+    padding:1% 0;
+}
+span{
+    color: #3a3a3a;
+    padding-left:4%;
+    padding-right:55%;
+    font-weight:bold;
+}
+span~span{
+    font-weight:bold;
+    color:red;
+    padding-right:0;
+}
+.footer{
+    position: relative ;
+    padding:5%;
+    font-size: 0.7rem;
+    text-align:center;
+    background-color: whitesmoke ;
+}
+.left{
+   position: absolute ;
+    top:20%;
+    left:12%;
+    color:darkturquoise;
+}
+.center{
+    position:absolute;
+    top:15%;
+    left:42%;
+    padding:2%;
+    border-radius: 50px;
+    background-color: #68cdd5 ;
+}
+.right{
+   position:absolute;
+    top:20%;
+    right:18%;
+}
