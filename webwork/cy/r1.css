@@ -1,0 +1,22 @@
+.wrap{
+    width:100%;
+    padding:100px;
+}
+.wrap div{
+    padding:20px;
+}
+.bottom{
+    padding:5px 0;
+}
+input:hover{
+    background-color: rgba(128, 160, 255, 0.62);
+}
+.bottom input{
+    padding:5px 10px;
+    margin:0 100px;
+}
+#reset{
+    padding:5px 10px;
+    margin: 0 100px;
+}
+h2{margin-left:180px; font-size: 1.5rem;}

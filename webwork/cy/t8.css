@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0;background-image: url(imgages/bp.jpg); background-repeat:repeat;}
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+a:hover{ color: #ff151d; text-decoration:none; cursor:pointer;}
+img{ max-width:100%; border:0;float:left;}
+.wrap{
+    max-width:1024px;
+    width:100%;
+    color:chartreuse;
+}
+.header{
+    width:100%;
+    float: left ;
+    margin-bottom: 20px;
+}
+.text{
+    color: rgb(14, 255, 225);
+    text-align: center;
+    padding-top:80px;
+   padding-bottom:20px ;
+    padding-right: 200px;
+}
+.nav{
+    float:right;
+    border:none;
+    border-radius: 2px;
+    background-color: rgba(25, 255, 69, 0.26);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+    padding:10px 60px;
+    margin:30px 10px;
+}
+.nav li{
+    float:left;
+    list-style-type: none;
+    padding:10px 20px;
+}
+.nav ul a {
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+.content{
+    width:100%;
+    font-size: 1.5rem;
+}
+.a{
+    float:left;
+    padding:14px;
+}
+.a table{ border-left-style:solid;
+    border-left-color: red ;
+    border-left-width:10px ;}
+.a fieldset{
+    border:4px dotted red ;
+}
+.list_a{
+    border:1px dotted red;
+    max-width:330px;
+    float:left;
+    padding: 10px;
+}
+.list_b{
+    border-radius: 8px;
+    border:3px solid #b4b4b4;
+    max-width: 330px;
+    float:left;
+    padding: 10px 20px 20px 20px;
+margin-left:15px;}
+.list_c{
+    border:1px dotted red;
+    max-width: 330px;
+    float:left;
+    padding: 10px 60px 40px 60px;
+margin-left:25px;}
+button{
+    text-align: center ;
+    padding:6px 10px;
+    margin-bottom:15px;
+    margin-right:35px;
+    margin-left:20px;
+}
+.footer{
+    font-size: 2rem;
+    clear:both;
+    margin:10px;
+    padding:40px;
+    background-color:darkblue;
+    color:darkgray;
+}
+.footer span{
+    padding:20px;
+}

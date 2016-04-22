@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="r1.css">
+</head>
+<body>
+<h1>欢迎来到注册页</h1>
+<p>请按照要求逐一操作，即可注册成功。</p>
+        <form id="form">
+                <div><label>用户名:</label><input id="username" name="username" type="text"/></div>
+            <div class="sex"><span>性别:</span><label for="male">男</label>
+                <input type="radio" name="sex" id="male" />
+                <label for="female">女</label>
+                <input type="radio" name="sex" id="female" /> </div>
+            <div><label>输入密码:</label><input id="pass" name="password" type="password"/></div>
+            <div><label>确认密码:</label><input id="word" name="password" type="password"/></div>
+                <div><span>邮箱:</span><input id="email" name="email" data-ideal="required email" type="email"/></div>
+                <div><label>出生日期:</label><input name="date" class="datepicker" data-ideal="date" type="text" placeholder="月/日/年"/></div>
+                <div><label>上传头像:</label><input id="file" name="file" multiple type="file"/></div>
+                <div><span>电话:</span><input type="tel" name="phone" data-ideal="phone"/></div>
+                <div><span>国籍:</span>
+                    <select id="states" name="states">
+                        <option value="default"> 选择国籍 </option> /* 下拉列表 */
+                        <option value="AK">中国</option>
+                        <option value="AZ">美国</option>
+                        <option value="AR">法国</option>
+                        <option value="CA">英国</option>
+                        <option value="CO">德国</option>
+                        <option value="HG">韩国</option>
+                        <option value="DE">其他</option>
+                    </select>
+                </div>
+                <div class="footer"><input type="submit" value="确认" />
+                <button id="reset" type="button">返回</button>
+            </div>
+    </form>
+<p>注册成功，跳转到下一页面</p>
+</body>
+</html>
