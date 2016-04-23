@@ -8,7 +8,7 @@ img{
 .container{
     max-width: 740px;
     width:100%;
-    font-family: "Hiragino Sans GB W3", "Hiragino Sans GB W6", Arial, sans-serif;
+    font-family: Microsoft YaHei, serif;
     color:white;
 }
 .header{
@@ -18,24 +18,24 @@ img{
 }
 .header p{
     position:absolute;
-    top:30%;
+    top:34%;
     left:5%;
     font-size: 1.2rem;
 }
 .header p~p{
-    top:21%;
+    top:20%;
     left:44%;
     font-size: 1.7rem;
 }
 .header p~p~p{
-    top:30%;
+    top:34%;
     left:85%;
     font-size: 1.2rem;
 }
 .content{
     width:100%;
     position:relative;
-    background-color: rgba(169, 168, 180, 0.15);
+    background-color: rgba(0, 0, 0, 0.04);
     padding: 30% 0;
 }
 .box-one{
@@ -49,14 +49,15 @@ img{
     margin:2% 22%;
     text-indent: 2rem;
     border:none;
-    border-left:0.1em solid rgba(169, 169, 169, 0.38);
+    border-left:0.1em solid rgba(0, 0, 0, 0.06);
+    color:rgba(0,0,0,0.06);
     height:2.2rem;
     font-size: 1.2rem;
 }
 .box-one img{
-    max-width: 5%;
+    max-width: 4%;
     position:absolute;
-    top:30%;
+    top:28%;
     left:7%;
 }
 .box-two{
@@ -70,14 +71,15 @@ img{
     margin:2% 22%;
     text-indent: 2rem;
     border:none;
-    border-left:0.1em solid rgba(169, 169, 169, 0.38);
+    border-left:0.1em solid rgba(0, 0, 0, 0.06);
+    color:rgba(0,0,0,0.06);
     height:2.2rem;
     font-size: 1.2rem;
 }
 .box-two img {
-    max-width: 5%;
+    max-width: 4%;
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 7%;
 }
 button{
@@ -86,7 +88,7 @@ button{
     top:76%;
     padding:3% 40%;
     text-align: center;
-    background-color: rgba(15, 192, 200, 0.77) ;
+    background-color: #68cdd5 ;
 }
 button p{
     font-size: 1.5rem;
@@ -95,12 +97,10 @@ button p{
 }
 .foot{
     width:100%;
-    padding-bottom: 70%;
+    padding-bottom: 60%;
     font-size: 1rem;
     text-align: right ;
-    position:relative;
-    color:  rgba(15, 192, 200, 0.77)  ;
-    top:47%;
+    color: #68cdd5 ;
     background-color: rgba(169, 168, 180, 0.15);
 }
 
