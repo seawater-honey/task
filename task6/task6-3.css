@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Microsoft YaHei, serif;
+}
+img{
+    max-width: 100%;
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 58.5%;
+    }
+}
+.wrap{
+    font-family:Microsoft YaHei, serif ;
+    background-color: #46b4d5;
+    color: rgb(243, 241, 248);
+    max-width: 640px;
+    margin:0 auto;
+}
+.header{
+   position: relative ;
+    padding: 6% 0;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.18);
+}
+.header img{
+    position: absolute ;
+    max-width: 8%;
+    top:20%;
+    left:5%;
+}
+.header img~img{
+    left:90%;
+}
+.header p{
+    font-size: 2.2rem;
+    position:absolute;
+    top:22%;
+    left:40%;
+}
+.img{
+   padding-left: 26%;
+    padding-top: 4%;
+    max-width: 50%;
+}
+.text-a{
+    color: #fcbd0f;
+    font-size: 2.3rem;
+    font-weight: 400 ;
+    margin: 3% 10%;
+}
+.text-b{
+    margin:8% 10% ;
+}
+.text-b p{
+    font-size: 1.5rem;
+    margin: 1% 0;
+}
+.text-b span{
+    padding-right:15%;
+    font-size: 1.5rem;
+}
+.box{
+    margin-top: 2%;
+    background-color: white;
+    color:darkgrey;
+    padding-bottom: 25%;
+}
+.box-a{
+    padding:2% 10% 4% 10% ;
+    font-size: 1rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.box-a span{
+    font-size: 1.4rem;
+    color:dimgray;
+    font-weight: 400 ;
+}
+.box-a span~span{
+    color: #e1e1e1;
+    float: right ;
+    font-weight: 200 ;
+    font-size: 0.8rem;
+}
+.box-a p{
+    margin-top: 2%;
+}
+.box-a p~p{
+    margin-top: 1%;
+}
+.bottom{
+    width: 100%;
+    max-width: 640px;
+    padding: 3% 0;
+    position: fixed ;
+    bottom: 0;
+    background-color: rgba(97, 195, 255, 0.65);
+}
+#again{
+    font-size: 2rem;
+    padding: 3% 8%;
+    margin-left: 7%;
+    background-color: rgba(255, 122, 139, 0.84);
+    border-radius: 10px;
+    color:white;
+}
+#upload{
+    font-size: 2rem;
+    padding: 3% 8%;
+    margin-left:7%;
+    background-color: rgba(255, 226, 97, 0.84);
+    border-radius: 10px;
+    color:white;
+}
