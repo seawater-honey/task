@@ -1,0 +1,175 @@
+h2,h3{
+    color:black;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8% 0;
+}
+.main{
+    position: relative;
+    width: 100%;
+    min-width: 1349px;
+    min-height: 425px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.banner{
+    position: absolute ;
+    transition: all 0.5s ease-in 0s;/*过渡效果*/
+    -moz-transition:all 0.5s ease-in 0s; /* Firefox 4 */
+    -webkit-transition:all 0.5s ease-in 0s; /* Safari and Chrome */
+}
+.banner div{
+    width:25%;
+    float: left;
+    text-align: center ;
+}
+.left{
+    max-width: 40%;
+    position: absolute;
+    top:43%;
+    left:13%;
+}
+.right{
+    max-width: 40%;
+    position: absolute;
+    top:43%;
+    left:87%;
+}
+.container{
+    margin:0 10%;
+    color: #a9a9a9;
+}
+.box1{
+    margin-top: 7%;
+}
+.block-a{
+    width: 20%;
+    float: left ;
+    padding: 3%;
+    font-size: 1rem;
+    text-align: center;
+}
+.block-a  p{
+    text-align:justify  ;
+}
+.block-b{
+    float: left;
+    padding: 4% 0 6% 5%;
+    margin:3%  1% 0 0;
+    font-size: 1rem;
+    border-left:2px darkgrey  dotted  ;
+}
+.block-b p{
+    padding-bottom:5%;
+    color:green;
+}
+.block-b p~p{
+    color:#a9a9a9;
+    padding-bottom:10%;
+}
+.block-b p~p~p{
+    color:green;
+    padding-bottom:5%;
+}
+.block-b p~p~p~p{
+    color:#a9a9a9;
+}
+.box2{
+    display:inline-block;
+    position: relative ;
+}
+.box2 img{
+    max-width: 88%;
+}
+.list  li{
+    position: absolute ;
+    top:50%;
+    left:7%;
+    width:16%;
+}
+.list  li~li{
+    position: absolute ;
+    top:50%;
+    left:35%;
+    width:16%;
+}
+.list  li~li~li{
+    position: absolute ;
+    top:52%;
+    left:62%;
+    width:16%;
+}
+.list  li~li~li~li{
+    position: absolute ;
+    top:52%;
+    left:89%;
+    width:16%;
+}
+.list  li~li~li~li~li{
+    position: absolute ;
+    top:85%;
+    left:7%;
+    width:16%;
+}
+.list  li~li~li~li~li~li{
+    position: absolute ;
+    top:85%;
+    left:35%;
+    width:16%;
+}
+.list  li~li~li~li~li~li~li{
+    position: absolute ;
+    top:85%;
+    left:62%;
+    width:16%;
+}
+.list  li~li~li~li~li~li~li~li{
+    position: absolute ;
+    top:85%;
+    left:89%;
+    width:16%;
+}
+.box3{
+    display: inline-block ;
+    text-align: center ;
+}
+.box3 img{
+    padding-top: 6%;
+    max-width: 45%;
+}
+.students{
+    width: 22%;
+    margin-left: 2%;
+    float:left;
+    background-color: white;
+}
+.students p{
+    text-align: justify ;
+    line-height: 30px;
+    font-size: 1rem;
+    padding: 2% 10% 8% 10%;
+}
+.box4{
+    display: inline-block ;
+}
+.box4  img{
+    height: 52px;
+   text-align: center;
+}
+.box4 span{
+    float:left;
+    padding:6% 43px;
+    background-color: white;
+
+}
+.box5 h2{
+    padding:12% 0 1% 0;
+}
+.box5 li{
+    float: left;
+    margin:1% 2% ;
+    list-style-type: disc;
+}
+.box5 a{
+    color:darkgrey;
+}

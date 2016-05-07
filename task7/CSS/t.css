@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-decoration:none;
+}
+a{text-decoration:none;}
+img{max-width: 100%;}
+.wrap{
+    font-family:Microsoft YaHei, serif ;
+    margin:0 auto;
+    background-color: #f5f5f5;
+}
+.header-a{
+    font-size: 0.8rem;
+    color:green;
+    margin:0 10%;
+    vertical-align: middle ;
+}
+.header-a p{
+    float:left;
+    padding: 1% 0;
+}
+.header-a img{
+    float:right;
+    padding: 0.8%;
+}
+.header-b{
+    clear:both;
+    color:white;
+    padding:1% 0;
+    background-color: #47b36b;
+}
+.logo{
+    float:left;
+    margin-left: 10%;
+    max-width: 30%;
+}
+.nav{
+    float: right ;
+    vertical-align:middle;
+    margin-right: 10%;
+}
+.nav li{
+    display: inline-block ;
+    font-size: 1.1rem;
+    padding: 18px 40px 0 0;
+}
+.nav li a{
+    color:white;
+    padding: 0 16px 32px 16px;
+}
+.nav li a:hover{
+    border-bottom: 4px white solid;
+}
+.clear{
+    clear:both;
+}
+.footer{
+    display: inline-block ;
+    background-color: #0cab59;
+    width: 100%;
+    color:white;
+}
+.footer-a{
+    margin-left: 10%;
+}
+.box-a{
+    float: left ;
+    padding: 2% 2% 2% 8%;
+}
+.footer p{
+    padding:6% 0;
+}
+.box-b{
+    float: left;
+    padding:2% 5%;
+}
+.box-b p{
+    padding-left: 2rem;
+}
+.box-b p~p{
+    float: left;
+}
+.box-b p~p~p~p{
+    clear: both ;
+}
+.box-b p~p~p~p~p{
+    clear: none ;
+    float: left;
+}
+.footer-a .img{
+    float: right ;
+    padding-top: 3%;
+    padding-right: 16% ;
+}
+.footer-b{
+    border-top:1px whitesmoke solid;
+    clear:both;
+    text-align: center ;
+}
+.footer-b p{
+    padding: 1% 0;
+}
