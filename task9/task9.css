@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+.wrap{
+    background-color:white;
+}
+.header{
+    background-color: #ececec;
+}
+.top{
+   width: 100%;
+    overflow: hidden ;
+    background-color: #436fe6;
+}
+.top-text{
+    overflow: hidden;
+    margin:0 10%;
+    line-height: 2em;/*行高代替padding很好用*/
+    font-size: 0.9rem;
+    color:white;
+}
+.top p{
+    float: left ;
+}
+.top-text ul{
+    float: right ;
+    border-left: solid 0.1em white;
+    border-right: solid 0.1em white;
+}
+.top-text li{
+    display: inline-block ;
+    width: 2.6rem;
+    text-align: center ;
+}
+.top-text li:hover{
+    width:5em;
+    color:black;
+    background-color: white;
+}
+.clear{
+    clear:both;
+}
+.nav{
+    margin:0 10%;
+    padding: 2% 0;
+    font-size: 1rem;
+}
+.nav li{
+    display: inline-block ;
+    margin-left:54%;
+    padding: 1.2%;
+    border-radius:0.3em;
+    background-color: white ;
+}
+.nav li~li{
+    margin-left: 4.9%;
+}
+.nav li:hover{
+    background-color: #1c28ff;
+    color:white;
+}
+.mainbody{
+    display: inline-block ;
+    margin: 0 10%;
+}
+.line{
+    width: 70%;
+    margin-left: 38%;
+    position: relative ;
+    font-size: 1.4rem;
+    display: inline-block ;
+    padding: 4% 0;
+}
+.line ul~ul{
+    border-radius: 0;
+    border-top:7px solid #d2d2d2;
+}
+.line ul{
+    float: left;
+    padding: 5% 4% 0 4%;
+    border-radius: 3px;
+    border-top:7px solid darkorange ;
+}
+.one p{
+    position:absolute;
+    background-color: darkorange ;
+    border-radius: 50px;
+    text-align: center ;
+    padding: 0.2%;
+    width: 25px;
+    top:22%;
+    left:11%;
+}
+.one li{
+    color:darkorange;
+}
+.two p{
+    position:absolute;
+    background-color:#d2d2d2;
+    border-radius: 50px;
+    text-align: center ;
+    padding: 0.2%;
+    width: 25px;
+    top:22%;
+    left:32%;
+}
+.three p{
+    position:absolute;
+    background-color: #d2d2d2;
+    border-radius: 50px;
+    text-align: center ;
+    padding: 0.2%;
+    width: 25px;
+    top:22%;
+    left:54%;
+}
+.four p{
+    position:absolute;
+    background-color: #d2d2d2;
+    border-radius: 50px;
+    text-align: center ;
+    padding: 0.2%;
+    width: 25px;
+    top:22%;
+    left:75%;
+}
+.two .three .four li{
+    color: #a9a9a9;
+}
+.list{
+    width: 56%;
+    float: right ;
+    padding-top:3%;
+    margin:4% 0;
+    border-top:5px #d8d8d8 solid;
+}
+.list li{
+    float: left ;
+    font-size: 1.1rem;
+    padding-left: 8%;
+}
+.list li~li{
+    padding-left: 8%;
+}
+.list li:hover{
+    color: #ff801d;
+}
+.box{
+    position: relative ;
+    width: 100%;
+    font-size: 1rem;
+    display: inline-block ;
+}
+.box p{
+    padding: 0 0.6%;
+    margin: 1% 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-left:5px solid #464dff ;
+}
+.box i{
+    width:30px;
+    height:25px;
+    display: inline-block ;
+    vertical-align: middle;
+    background:url(images/sprite_03.png) no-repeat ;
+    background-position: 6px -6px ;
+}
+.box .box-b i{
+    background-position: 6px -138px;
+}
+.box .box-c i{
+    background-position: 4px -324px;
+}
+.block {
+    font-size: 1.1rem;
+    color:blue;
+    font-weight: 500 ;
+    padding: 1% 0;
+    background-color: #e6e6e6;
+}
+.block li{
+    display: inline-block ;
+}
+.input{
+    padding: 1.5%;
+    background-color: #fff8fd;
+}
+.option{
+    font-size: 1rem;
+    position: relative ;
+}
+.option span{
+    width: 40%;
+    height: 120%;
+    position: absolute ;
+    left:20%;
+    top:1%;
+}
+.box-b .option span{
+    left:22%;
+}
+.box-c .option span{
+    left:14%;
+}
+input[type="radio"]:checked + span{
+    background: url(images/radio-checked.png) no-repeat;
+    background-position: 15px 0;
+}
+select{
+    border: 1px solid #dbdbdb;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(images/select_03.png ) no-repeat ;
+    background-position:5px -1px;
+}
+.box-a select{
+   padding: 0.7% 3.2% 0.5% 1.2% ;
+    float: right;
+}
+.box-b p{
+    border: none;
+}
+.sqare{
+    font-size: 1rem;
+   padding-left:4% ;
+}
+.box-b select{
+    position: absolute;
+    padding:0.7% 3.2% 0.5% 1.2% ;
+    top:34%;
+    left:89%;
+}
+.box-c select{
+    padding:0.7% 3.2% 0.5% 1.2%;
+    float: right;
+}
+.option{
+    padding-left:4% ;
+}
+.bottom{
+    margin: 12% 0;
+    text-align: center ;
+    background-color: white ;
+}
+button{
+    color: white;
+    font-weight: 500 ;
+    padding: 0.6% 4.2% ;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    background-color: #e67474;
+}
+.footer{
+    width: 100%;
+    background-color: #d8d8d8;
+}
+.footer-a{
+    overflow: hidden ;
+    margin: 0 10%;
+    padding: 2% 0;
+    font-size: 1rem;
+    color: #808080;
+}
+.boxa{
+    float: left ;
+    width: 33%;
+}
+.boxa span{
+    padding-left: 8%;
+    padding-bottom: 5%;
+    float: left;
+    color:blue;
+}
+.boxa span~span{
+    color:#808080;
+}
+.boxa span:hover{
+    color:blue;
+}
+.float-left{
+    padding-right: 4%;
+    float: right;
+}
+.float-left img{
+    width: 65%;
+}
+.footer-bottom{
+    clear: both;
+    width: 100%;
+    padding: 0.5% 0;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #1c28ff ;
+    color:white;
+}
